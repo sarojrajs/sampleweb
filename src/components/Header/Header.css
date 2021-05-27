@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: flex-end;
+    padding: 20px 0;
+}
+
+.headerContainer{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 70%;
+    justify-content: space-around;
+}
+
+.headerContainer li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.searchBar{
+    background-color: #00E18E;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+}
+.searchBar input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 5px;
+    font-size: 14px;
+}
+.searchBar input::placeholder{
+    color: white;
+    font-size: 600;
+}
+.searchBar>svg{
+    color: white;
+}

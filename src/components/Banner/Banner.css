@@ -1,0 +1,59 @@
+.banner{
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.bannerDescription{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 30%;
+}
+.bannerDescription h1{
+    font-size: 52px;
+    color: #0B1028;
+}
+.targetText{
+    color: #8358FF;
+    font-size: 24px;
+    font-weight: 600;
+}
+.signUpText{
+   font-size: 18px;
+    font-weight: 600;
+}
+.bannerDescription button{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+
+}
+.bannerImage{
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+.bannerImage img{
+    width: 700px;
+    object-fit: contain;
+}
+.signUpButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8358FF;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px lightgray;
+    cursor: pointer;
+}
+.signUpButton p{
+    font-size: 18px;
+    color: white;
+}
+.signUpButton svg{
+    color: white;
+}

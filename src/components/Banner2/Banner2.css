@@ -1,0 +1,27 @@
+.banner2{
+    display: flex;
+    justify-content: center;
+}
+.banner2Image{
+    width: 70%;
+    /* border: 1px solid black; */
+}
+.banner2Image img{
+    object-fit: contain;
+    /* width: 700px; */
+}
+.banner2Description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.details h2{
+    font-size: 32px;
+    color:#4619D9;
+    margin-bottom: 10px;
+}
+.details p{
+    font-size: 14px;
+    color: rgb(121, 121, 121);
+}
